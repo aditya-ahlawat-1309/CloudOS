@@ -320,7 +320,7 @@ const AboutPage = () => {
                           </span>
                           <br />
                           <span style={{ fontSize: "1.25rem", color: "black" }}>
-                            Meetins Done
+                            Meetings Done
                           </span>
                         </Paper>
                       </Grid>

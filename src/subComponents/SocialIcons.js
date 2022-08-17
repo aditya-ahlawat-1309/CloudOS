@@ -64,7 +64,7 @@ const SocialIcons = (props) => {
           <Hackerrank width={35} height={35} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
         </NavLink>
       </div>
-      <Line color = {props.theme}/>
+      <Line color = {props.theme == "dark" ? "light" : "dark"}/>
     </Icons>
   );
 }

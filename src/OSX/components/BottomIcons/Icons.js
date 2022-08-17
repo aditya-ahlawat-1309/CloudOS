@@ -22,9 +22,9 @@ const Icons = () => {
             // textAlign:"center",
             // justifyContent:"center",
             position: "fixed",
-    top: "94.95%",
-    left: "50.75%",
-            transform:"translate(-50%,-50%)",
+            top: "94.95%",
+            left: "48%",
+            transform: "translate(-50%,-50%)",
           }}
         >
           {/*  //  <a
@@ -158,7 +158,6 @@ const Icons = () => {
               color: "green",
               textDecoration: "none",
               fontWeight: "bold",
-             
             }}
             href="https://ztmnasa.netlify.app/"
             target="_blank"
@@ -166,11 +165,16 @@ const Icons = () => {
             <div style={{ flexDirection: "column" }}>
               <img
                 src={
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNlRTPLbpf5MSrFZARAGidI9umaZfVcngvsQ&usqp=CAU"
+                  // "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/2560px-NASA_Worm_logo.svg.png"
+                  "https://www.logolynx.com/images/logolynx/41/415e18953037c18c58aa1b2f1c28ee58.jpeg"
                 }
-                width="57.5px"
-                height="57.5px"
-                style={{ borderRadius: "15px" }}
+                width="125px"
+                height="60px"
+                style={{
+                  // borderRadius: "15px"
+                  marginTop: "0px",
+                  borderRadius: "15px",
+                }}
                 class="Icons-animation"
               />
             </div>
@@ -193,10 +197,10 @@ const Icons = () => {
             <div style={{ flexDirection: "column" }}>
               <img
                 src={
-                  "https://play-lh.googleusercontent.com/92xIZAW-mdwucFX1v8kyTXlLVgZfLczHv8XCVOH1tFc0M3cTRI4q9qJLUM96PqCrgWjc"
+                  "https://image.winudf.com/v2/image1/Y29tLnRhc2tzLmFuZHJvaWRfaWNvbl8xNjI4NzY4ODQ1XzA3MA/icon.png?w=&fakeurl=1"
                 }
-                width="57.5px"
-                height="57.5px"
+                width="60px"
+                height="60px"
                 style={{ borderRadius: "15px" }}
                 class="Icons-animation"
               />
@@ -247,11 +251,10 @@ const Icons = () => {
             <div style={{ flexDirection: "column" }}>
               <img
                 src={
-                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEXz8/PzUyWBvAYFpvD/ugjz9fb19Pbz+fr39fr69vPy9foAofD/tgDzRQB9ugAAo/Df6dCv0Xjz2dPzTBfzl4PznImz04CAx/H60oHS5vJ5xPH60Hn16dIAnvDz7u3z4t7n7dzzNADzkXurz3BwtQDzvrLM36zf6/Os2PL336z07d/7z3RN8WfWAAABg0lEQVR4nO3cyVLCYBCFURwCkXlygDBFUBTf//3cSGIVf5WrDi7O9wJdp3p/Wy1JkvSrLLzqVDu8FHAzjW57JrZ34+hSH5yWg9jK187PrXx/GMZ2GF9+MZsObmKbzSvhZHgb25CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCwUWE5i21QC/fB86Xp/dLt/DG4t/MGbf7+FNxkl9jZzTrR1TvCeXjJIWFJkv7uIbzqVDe8LAE8Lp+D+zgTu5/FS2zFKUFcrEex9ZaV8Ksf3Sol7N3FNqqFRf8+NkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQsJmhetebOtr75dmi+iO1anTKrrNJbDRsvCuDJQk6Z/1DSzvYqEfRCNJAAAAAElFTkSuQmCC"
+                  "https://pngimg.com/uploads/apple_logo/apple_logo_PNG19677.png"
                 }
                 width="60px"
-                height="60px"
-                style={{ backgroundSize: "contain" }}
+                style={{ marginTop: "-10px", backgroundSize: "contain" }}
                 class="Icons-animation"
               />
             </div>

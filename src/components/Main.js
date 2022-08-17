@@ -10,6 +10,7 @@ import Intro from './Intro'
 import { DarkTheme } from './Themes';
 import BottomBar2 from '../OSX/components/BottomBar/BottomBar';
 import AboutPage from './AboutPage';
+import { Bar } from '../OSX/TopBar/TopBar/Bar';
 
 
 
@@ -34,7 +35,7 @@ padding: 2rem;
 const Contact = styled(NavLink)`
 color:black;
 position:absolute;
-top:2rem;
+top:3.5rem;
 right: calc(1rem + 2vw);
 text-decoration:none;
 z-index:1;
@@ -145,17 +146,22 @@ padding-top: 1rem;
 `
 
 const DarkDiv = styled.div`
-position:absolute;
-top:0;
-background-color:#000;
-bottom:0;
-right:50%;
-width: ${props => props.click ? '50%' : '0%'};
+  position: absolute;
+  top: 0;
+  background-color: #000;
+  background-image: url("https://images.pexels.com/photos/573130/pexels-photo-573130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 
-height: ${props => props.click ? '100%' : '0%'};
-z-index:1;
-transition : height 0.5s ease, width 1s ease 0.5s;
-`
+  bottom: 0;
+  right: 50%;
+  width: ${(props) => (props.click ? "50%" : "0%")};
+
+  height: ${(props) => (props.click ? "100%" : "0%")};
+  z-index: 1;
+  transition: height 0.5s ease, width 1s ease 0.5s;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+`;
 
 const Power = styled.button`
   position: fixed;
@@ -201,6 +207,7 @@ const Main = () => {
       <div className="mobile-message">
         <h2>Please use application on larger screen</h2>
       </div>
+      <Bar/>
       <MainContainer>
         <DarkDiv click={click} />
 
@@ -243,8 +250,9 @@ Click on
              Power Button
           </h2>
         </div> */}
+        
           <LogoComponent theme={click ? "dark" : "light"} />
-          <SocialIcons theme={click ? "dark" : "light"} />
+          <SocialIcons theme={click ? "light" : "dark"} />
 
           <Center click={click}>
             <YinYang
