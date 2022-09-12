@@ -22,7 +22,8 @@ z-index:3;
 const Line = styled.span`
 width: 2px;
 height:8rem;
-background-color:${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
+ background-color: black;
+{/*{${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body}; */}
 `
 
 const SocialIcons = (props) => {

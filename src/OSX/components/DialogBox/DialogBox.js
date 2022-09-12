@@ -37,7 +37,7 @@ const DialogBox = () => {
                 marginTop: "5%",
                 position: "absolute",
               }}
-              class="Icons-animation"
+              className="Icons-animation"
               width="100px"
               height="100px"
             />

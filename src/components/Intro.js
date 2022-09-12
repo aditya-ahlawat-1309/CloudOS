@@ -13,15 +13,15 @@ height:55vh;
 display: flex;
 background: linear-gradient(
     to right,
-    #fff 50%,
+    #000 50%,
     #000 50%) bottom,
     linear-gradient(
     to right,
-    #fff 50%,
+    #000 50%,
     #000 50%) top;
     background-repeat: no-repeat;
 background-size: 100% 2px;
-    border-left: 2px solid #fff;
+    border-left: 2px solid #000;
     border-right: 2px solid #000;
     z-index:1;
 `
@@ -66,8 +66,8 @@ const Intro = () => {
     >
       <SubBox>
         <Text>
-          <h1>Hi,</h1>
-          <h3 style={{ color: "black" }}>I'm ADitya</h3>
+          <h1>Hi, I'm <br/>ADITYA</h1>
+          <h6>aka AD</h6>
           <h6>I code simple yet beautiful web Apps</h6>
         </Text>
       </SubBox>

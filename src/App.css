@@ -44,7 +44,7 @@
 }
 
 /* Media Query: Mobile Devices */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 10px) {
   body{
     visibility: hidden;
       margin: 0;
@@ -78,7 +78,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 150, 255, 0.60);
+  background: rgb(0, 155, 255, 1);
   border-radius: 25px;
 }
 

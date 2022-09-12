@@ -36,7 +36,7 @@ const restore = () => {
       style={{
         zIndex: 6,
         position: "absolute",
-        background: "rgba(255, 255, 255, 1)",
+        background: "rgb(0, 155, 255,1)",
         borderRadius: "16px",
         backdropFilter: "blur(5px)",
         webkitBackdropFilter: "blur(5px)",
@@ -46,9 +46,17 @@ const restore = () => {
         transform: "translate(-35%,25%)",
         width: "15%",
         height: "190px",
+        color: "white",
       }}
     >
-      <button style={{ background: "none", border: "none", cursor: "pointer" }}>
+      <button
+        style={{
+          color: "white",
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+        }}
+      >
         N e w &nbsp;&nbsp;&nbsp;F i l e
         <br />
         &nbsp;&nbsp;(&nbsp;&nbsp;c o m i n g &nbsp;&nbsp;&nbsp;s o o
@@ -57,7 +65,12 @@ const restore = () => {
       <br />
       <br />
       <button
-        style={{ background: "none", border: "none", cursor: "pointer" }}
+        style={{
+          color: "white",
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+        }}
         onClick={() => zoomIn()}
       >
         &nbsp;&nbsp;&nbsp;&nbsp;Z o o m &nbsp;&nbsp;&nbsp;i n
@@ -65,7 +78,12 @@ const restore = () => {
       <br />
       <br />
       <button
-        style={{ background: "none", border: "none", cursor: "pointer" }}
+        style={{
+          color: "white",
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+        }}
         onClick={() => zoomOut()}
       >
         &nbsp;&nbsp;&nbsp;&nbsp;Z o o m &nbsp;&nbsp;&nbsp;o u t
@@ -73,7 +91,12 @@ const restore = () => {
       <br />
       <br />
       <button
-        style={{ background: "none", border: "none", cursor: "pointer" }}
+        style={{
+          color: "white",
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+        }}
         onClick={() => restore()}
       >
         &nbsp;&nbsp;&nbsp;&nbsp;R e s t o r e &nbsp;&nbsp;&nbsp;S i z e
@@ -81,7 +104,12 @@ const restore = () => {
       <br />
       <br />
       <button
-        style={{ background: "none", border: "none", cursor: "pointer" }}
+        style={{
+          color: "white",
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+        }}
         onClick={() => refresh()}
       >
         &nbsp;&nbsp;&nbsp;&nbsp;R e f r e s h

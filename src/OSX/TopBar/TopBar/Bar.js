@@ -18,7 +18,7 @@ var date = new Date().toLocaleString();
       style={{
         zIndex: 6,
         position: "absolute",
-        background: "rgba(255, 255, 255, 1)",
+        background: "rgba(0, 0, 0, 1)",
         position: "fixed",
         top: "0%",
         width: "100%",
@@ -29,6 +29,7 @@ var date = new Date().toLocaleString();
         //   "https://images.pexels.com/photos/573130/pexels-photo-573130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" +
         //   ")",
         backgroundRepeat: "repeat",
+        color:"white"
      
       }}
     >

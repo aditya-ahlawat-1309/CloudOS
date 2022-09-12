@@ -21,6 +21,7 @@ const classes = makeStyles((theme) => ({
     padding: theme.spacing(2),
     margin: "auto",
     maxWidth: "100%",
+    height:"100%",
     color: "white",
   },
   image: {

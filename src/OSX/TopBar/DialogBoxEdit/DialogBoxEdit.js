@@ -1,11 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
+import BG from './Edit/BG/BG';
 
 const DialogBox = () => {
+
+const [showBG1,setShowBG1]  = useState(false);
+
+const handleClick = () => {
+  setShowBG1(!showBG1);
+}
+
+const [color,setColor] = useState("#0096ff");
+
   return (
-    <div    style={{
+    <div
+      style={{
         zIndex: 6,
         position: "absolute",
-        background: "rgba(255, 255, 255, 1)",
+        background: "rgb(0, 155, 255,1)",
         borderRadius: "16px",
         backdropFilter: "blur(5px)",
         webkitBackdropFilter: "blur(5px)",
@@ -15,13 +26,22 @@ const DialogBox = () => {
         transform: "translate(-35%,40%)",
         width: "15%",
         height: "100px",
-        color:"black"}}>
+        color: "white",
+        boxShadow: "10px 4px 30px #0000",
+      }}
+    >
+      <div style={{ marginTop: "10px", marginLeft: "15px" }}>
+        {/* <button style={{background:"none", border:"none",cursor:"pointer"}}
+onClick = {() => handleClick()}
+>
+Edit background
+</button> */}
+        Work in Progress
+      </div>
 
-<div style={{marginTop:"20px",marginLeft:"15px"}}>
-Work in Progress
-</div>
-        </div>
-  )
+      {/* {showBG1 ? <BG/> : null} */}
+    </div>
+  );
 }
 
 export default DialogBox

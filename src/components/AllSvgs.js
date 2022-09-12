@@ -24,7 +24,7 @@ export const PowerBtn = (props) =>{
 export const Github = (props) =>{
     return (
       <svg
-        fill="#000000"
+        fill="#fff"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 30 30"
        
@@ -55,7 +55,7 @@ export const Leetcode = (props) => {
 export const Linkedin = (props) => {
 return (
   <svg
-    fill="#000000"
+    fill="#fff"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 50 50"
     {...props}

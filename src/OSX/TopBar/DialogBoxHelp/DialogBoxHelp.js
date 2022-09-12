@@ -6,7 +6,7 @@ const DialogBox = () => {
       style={{
         zIndex: 10,
         position: "absolute",
-        background: "rgba(255, 255, 255, 1)",
+        background: "rgb(0, 155, 255,1)",
         borderRadius: "16px",
         backdropFilter: "blur(5px)",
         webkitBackdropFilter: "blur(5px)",
@@ -17,7 +17,7 @@ const DialogBox = () => {
         transform: "translate(0%,10%)",
         width: "80%",
         height: "550px",
-        color: "black",
+        color: "white",
         textAlign: "inherit",
         fontSize: "20px",
       }}
@@ -44,29 +44,33 @@ const DialogBox = () => {
         integration with network resources.
       </p>
       <br />
-      <br/>
-      <p style={{fontSize:"15px",marginLeft:"25px"}}>
+      <br />
+      <p style={{ fontSize: "15px", marginLeft: "25px" }}>
         Examples
-        <br/>
         <br />
-        1. Glide Glide OS 4.0 
-        <br/>is one of the cloud computing solutions provides
-        30GB of storage freely. But users want to have extra storage then they
-        have to pay charges for it.
         <br />
-        2. MyGoya 
-        <br/>It is a free online cloud operating system on which our own
-        personal desktop can also be accessed from any Internet PC in the world
-        and can use services like email, chat, file sharing etc.
+        1. Glide Glide OS 4.0
         <br />
-        3.Amoeba 
-        <br/>It is an advanced cloud OS on which users can log into the free
-        account and use cloud computing applications like shutterborg,
-        Ex-stream, Surf etc.
+        is one of the cloud computing solutions provides 30GB of storage freely.
+        But users want to have extra storage then they have to pay charges for
+        it.
         <br />
-        4. Kohive 
-        <br/>It is an online desktop where users can easily collaborate
-        with others. It is used by freelancers, business, students etc.
+        2. MyGoya
+        <br />
+        It is a free online cloud operating system on which our own personal
+        desktop can also be accessed from any Internet PC in the world and can
+        use services like email, chat, file sharing etc.
+        <br />
+        3.Amoeba
+        <br />
+        It is an advanced cloud OS on which users can log into the free account
+        and use cloud computing applications like shutterborg, Ex-stream, Surf
+        etc.
+        <br />
+        4. Kohive
+        <br />
+        It is an online desktop where users can easily collaborate with others.
+        It is used by freelancers, business, students etc.
       </p>
     </div>
   );
