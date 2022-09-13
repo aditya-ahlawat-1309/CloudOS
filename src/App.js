@@ -6,19 +6,18 @@ import GlobalStyle from "./globalStyles";
 import { Route, Switch } from "react-router";
 import "./App.css";
 
-const BGContext = React.createContext({});
 
 const App = () => {
   return (
     <div>
-      {/* <BGContext> */}
+     
         <GlobalStyle />
         <ThemeProvider theme={DarkTheme}>
           <Switch>
             <Route exact path="/" component={Main} />
           </Switch>
         </ThemeProvider>
-      {/* </BGContext> */}
+     
     </div>
   );
 };

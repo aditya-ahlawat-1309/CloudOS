@@ -338,7 +338,7 @@ const AboutPage = () => {
                       }}
                     >
                       <a
-                        href="https://drive.google.com/file/d/1MKka16an7AaMbTLYLdVyANRxD1t--8a-/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1kYaA4A4x1oFwMjrgAQxi5L1_FCRnkrpj/view?usp=sharing"
                         target="_blank"
                         style={{
                           color: "lightblue",
