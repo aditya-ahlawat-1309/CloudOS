@@ -36,7 +36,7 @@ var date = new Date().toLocaleString();
       <TopIcons />
 
 <div style={{marginTop:"-1.25%",marginLeft:"91.5%", fontWeight:"bold"}}>
-{date.substring(10)}
+{date.substring(11)}
 </div>
       
     </div>
